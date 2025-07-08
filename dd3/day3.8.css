@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.card{
+    text-align: center;
+}
+
+body{
+    max-width: 1170px;
+   /* background-color: blanchedalmond;*/
+    margin: 0 auto;
+
+}
+.certain{
+    width: 300px;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 10px 10px 10px  black;
+}
+.certain:hover{
+    background-color: aquamarine;
+}
+.certain img{
+    width: 100%;
+    border-radius: 10px;
+}
+.certain h2{
+    font-size: 2em;
+    font-weight: 90px;
+}
+.certain button{
+    font-size: 1.25em;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    cursor:pointer ;
+    padding: 10px 30px;
+}
